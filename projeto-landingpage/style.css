@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url("fundocerto.jpg");
+    padding: 110px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+header > h1 {
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-weight: bolder;
+    font: bold;
+}
+
+header > p {
+    padding-bottom: 60px;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: 1px;
+    
+}
+
+header > a {
+    padding-bottom: 20px;
+    text-decoration: none;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    padding: 20px;
+    font-weight: 300;
+    border: 1px solid rgba(201, 200, 200, 0.582);
+}
+
+header > a:hover {
+    background-color: white;
+    color: rgb(70, 70, 70);
+    border: 1px solid rgba(201, 200, 200, 0.582);
+    cursor: pointer;
+}
+
+main {
+    background-color: #eaeaea;
+    color: rgb(65, 65, 65);
+    
+}
+
+main > h2 {
+    padding: 20px;
+    padding-top: 40px;
+    font-size: 1.7em;
+    font-weight: 600;
+    text-align: center;
+}
+
+main > div#meioes {
+    color: rgb(65, 65, 65);
+    text-align: center;
+    padding: 30px;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+section#primeira {
+    background-color: rgb(65, 64, 64);
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 65px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h3#divmeio {
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+p#divmeio {
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+section > div#es {
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: rgb(65, 65, 65);
+    height: 450px;
+    width: 230px;
+    padding: 20px;  
+    margin-left: 20px;
+}   
+
+
+section > div#mei {
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: rgb(65, 65, 65);
+    height: 450px;
+    width: 230px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+section > div#di {
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: rgb(65, 65, 65);
+    height: 450px;
+    width: 230px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+img {
+    position: relative;
+    transform: translate(-30px, -35px);
+}
+
+
+
+div#antesfot {
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+div#antesfot > h2 {
+    font-size: 1.6em;
+    padding: 30px;
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+div#antesfot > p {
+    font-size: 1.1em;
+    padding: 20px;
+}
+
+section#meio {
+    display: flex;
+    margin: 0px;
+}
+
+div#azul {
+    display: inline-block;
+    width: 48vw;
+    float: left;
+    color: white;
+    background-color: rgb(10, 126, 172);
+}
+
+div#azul > h3 {
+    text-align: center;
+    font-weight: 600;
+    padding: 35px;
+    padding-top: 60px;
+    font-size: 1.5em;
+}
+
+div#azul > p {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+div#cinza {
+    display: inline-block;
+    float: right;
+    color: white;
+    width: 52vw;
+    background-color: rgb(65, 64, 64);
+}
+
+div#cinza > h3 {
+    text-align: center;
+    font-weight: 600;
+    padding: 35px;
+    padding-top: 60px;
+    font-size: 1.5em;
+}
+
+div#cinza > p {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+section#foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+}
+
+section#foot > div#fotes {
+    display: flex;
+    padding: 30px;
+    font-size: 1.3em;
+    text-align: center;
+    padding-top: 40px;
+    background-color: black;
+    color: white;
+}
+
+
+section#foot > div#fotdi {
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 40px;
+    background-color: black;
+    color: white;
+}
+
+div#fotdi > a {
+    text-decoration: none;
+    color: rgb(2, 118, 212);
+}

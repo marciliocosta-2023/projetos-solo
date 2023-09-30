@@ -1,0 +1,54 @@
+@charset "UTF";
+
+@media screen and (max-width: 768px) {
+
+    section > div#es {
+        margin-top: 5px;
+        width: 300px;
+    }
+
+    section > div#mei {
+        margin-top: 18px;
+        width: 300px;
+    }
+
+    section > div#di {
+        margin-top: 18px;
+        width: 300px;
+    }
+
+    img {
+        width: 340px;
+    }
+
+    section#meio {
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    div#azul {
+        display: block;
+        float: none;
+        width: 100%;
+        height: 350px;
+    }
+
+    div#cinza {
+        display: block;
+        float: none;
+        width: 100%;
+        height: 350px;
+    }
+
+    section#foot  {
+        display: flex;
+    }
+
+    div#fotes {
+        display: block;
+    }
+
+    div#fotdi {
+        display: block;
+    }
+}
