@@ -158,7 +158,7 @@ section#meio {
 div#azul {
     display: inline-block;
     width: 48vw;
-    float: left;
+    float: left; 
     color: white;
     background-color: rgb(10, 126, 172);
 }
@@ -178,8 +178,8 @@ div#azul > p {
 }
 
 div#cinza {
-    display: inline-block;
     float: right;
+    display: inline-block;
     color: white;
     width: 52vw;
     background-color: rgb(65, 64, 64);
