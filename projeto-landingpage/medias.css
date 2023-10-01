@@ -2,6 +2,10 @@
 
 @media screen and (max-width: 768px) {
 
+    header > a {
+        padding: 10px;
+    }
+
     section > div#es {
         margin-top: 5px;
         width: 300px;
@@ -51,4 +55,12 @@
     div#fotdi {
         display: block;
     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    section#primeira > div#di {
+        margin-top: 20px;
+    }
+
 }
