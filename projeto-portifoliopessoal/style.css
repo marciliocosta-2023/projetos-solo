@@ -1,0 +1,123 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Mantana-Regular';
+    src: url("Mantana-Regular.otf");
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    background-color: rgba(255, 255, 255, 0.849);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgba(40, 56, 201, 0.952);
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px;
+    margin-left: 22px;
+    margin-right: 22px;
+    border-radius: 2px;
+}
+
+header > .menu > div > h3 > a {
+    text-decoration: none;
+    color: white;
+}
+
+header > .menu > div > h3 > a:hover {
+    background-color: white;
+    color: rgba(40, 56, 201, 0.952);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nome {
+    font-family: 'Mantana-Regular';
+    font-weight: 300;
+    font-size: 1.6em;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.473);
+}
+
+main section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 40px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.infos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+    padding: 15px;
+}
+
+.infos > div#sob > p {
+    font-size: 20px;
+    margin-left: 2px;
+    color: rgb(177, 176, 176);
+    margin-bottom: -30px;
+}
+
+.infos > div#princ > p {
+    margin-top: -10px;
+    font-weight: 500;
+    font-size: 2.8em;
+}
+
+.infos > div#sub > p {
+    padding: 10px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: -8px;
+}
+
+.infos > div#botao {
+    display: flex;
+}
+
+.infos > div#botao > div {
+    background-color: black;
+    padding: 30px;
+}
+
+.infos > div#botao > div#dir {
+    margin-left: 25px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.infos > div#botao > div > a {
+    text-decoration: none;
+    color: white;
+}
+
+.infos > div#botao > div > a:hover {
+    color: black;
+    background-color: white;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.foto > img {
+    max-width: 500px;
+    box-shadow: 5px solid black;
+}
+
+
