@@ -117,7 +117,7 @@ main section {
 
 .foto > img {
     max-width: 500px;
-    box-shadow: 5px solid black;
+    margin-left: 40px;
 }
 
 
